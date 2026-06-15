@@ -66,6 +66,7 @@ USER "${USER_NAME}"
 
 ENV PATH="/home/${USER_NAME}/.local/bin:${PATH}"
 
+# hadolint ignore=DL4006
 RUN \
       curl https://cursor.com/install -fsS | bash
 
