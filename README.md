@@ -42,11 +42,11 @@ This repository provides a Docker Compose workflow that:
    The service starts in `/workspace` and runs:
 
    ```bash
-   zsh -lc 'cursor-agent --force'
+   zsh -lc 'cursor-agent --yolo'
    ```
 
    > [!WARNING]
-   > `--force` lets the agent make file changes and run shell commands without
+   > `--yolo` lets the agent make file changes and run shell commands without
    > confirmation. It is convenient inside a disposable container, but only run
    > it on code you trust. Drop the flag to keep the default, approval-gated
    > behaviour:

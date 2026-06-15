@@ -32,7 +32,7 @@ services:
       - /usr/bin/zsh
     command:
       - -lc
-      - 'cursor-agent --force'
+      - 'cursor-agent --yolo'
 volumes:
   cursor-data:
   config-data:

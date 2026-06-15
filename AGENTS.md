@@ -75,7 +75,7 @@ Run local QA before opening a pull request.
   API key. When `CURSOR_API_KEY` is unset, run `cursor-agent login` on first
   launch to print an authorization URL to complete in a browser on your local
   machine.
-- The default Compose command runs `cursor-agent` with `--force`, which lets the
+- The default Compose command runs `cursor-agent` with `--yolo`, which lets the
   agent make file changes and run shell commands without confirmation. This is
   intended for the disposable container only; drop the flag to restore Cursor's
   default approval-gated behaviour.

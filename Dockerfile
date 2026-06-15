@@ -95,7 +95,7 @@ RUN \
       && git config --global user.email "${USER_NAME}@localhost"
 
 ENTRYPOINT ["cursor-agent"]
-CMD ["--force"]
+CMD ["--yolo"]
 
 
 FROM cli AS cursor
