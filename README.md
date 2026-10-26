@@ -1,5 +1,9 @@
 # docker-cursor-cli
 
+The image uses Docker Hardened Debian 13 (`dhi.io/debian-base:trixie-dev`).
+Authenticate with Docker Hub credentials using `docker login dhi.io` before
+local builds. CI uses the configured Docker Hub token for DHI pulls.
+
 Dockerfile and compose.yml for [Cursor CLI](https://cursor.com/docs/cli/overview)
 
 [![CI/CD](https://github.com/dceoy/docker-cursor-cli/actions/workflows/ci.yml/badge.svg)](https://github.com/dceoy/docker-cursor-cli/actions/workflows/ci.yml)
